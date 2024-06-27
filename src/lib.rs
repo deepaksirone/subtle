@@ -46,6 +46,7 @@ use core::option::Option;
 /// [rust-timing-shield]:
 /// https://www.chosenplaintext.ca/open-source/rust-timing-shield/security
 #[derive(Copy, Clone, Debug)]
+#[repr(C)]
 pub struct Choice(u8);
 
 impl Choice {
